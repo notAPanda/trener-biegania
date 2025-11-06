@@ -10,6 +10,7 @@ export default defineConfig({
       input: path.resolve(__dirname, 'src/index.html'),
     },
   },
+  publicDir: 'public',
   server: {
     open: true,
     watch: {
