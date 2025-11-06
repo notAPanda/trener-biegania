@@ -30,7 +30,6 @@
 <body class="bg-white min-h-screen flex flex-col">
 
 	<main class="flex flex-col-reverse lg:flex-row items-start max-w-7xl mx-auto px-10 py-10 gap-10">
-		<!-- Left: Text -->
 		<div class="flex-1 max-w-xl">
 			<div class="text-lg text-gray-500 mb-2">Trener lekkoatletyki / biegowy</div>
 			<h1 class="text-5xl font-extrabold text-gray-900 mb-4 leading-tight">Dariusz Ziemba</h1>
@@ -38,7 +37,7 @@
 				Jestem trenerem lekkoatletyki (biegów) od 36 lat.
 			</p>
 			<p class="text-gray-500 text-lg mb-6">
-				W tym czasie pracowałem w trzech klubach: Juvenia Świętochłowice, KS Głucholazy i Pogoń Ruda Śl.
+				W tym czasie pracowałem w trzech klubach: Juvenia Głucholazy, Pogoń Ruda Śląska, TS AKS Chorzów .
 			</p>
 			<p class="text-gray-500 text-lg mb-6">Moi wychowankowie (zawodnicy) wywalczyli kilkanaście medali Mistrzostw
 				Polski, wielu było członkami kadry
@@ -80,16 +79,16 @@
 				</span>
 			</div>
 			<div class="text-2xl font-semibold text-gray-800 mb-4">Zapraszam do kontaktu</div>
-			<div class="flex gap-4 mb-6">
-				<span id="phone-btn-wrapper">
+			<div class="flex gap-4 mb-6 flex-col sm:flex-row">
+				<span id="phone-btn-wrapper" class="w-full">
 					<button onclick="showPhone()" id="phone-btn"
-						class="px-8 py-3 bg-gray-800 text-white font-semibold rounded hover:bg-gray-900 transition">
+						class="w-full sm:w-auto px-8 py-3 bg-gray-800 text-white font-semibold rounded hover:bg-gray-900 transition">
 						Zadzwoń
 					</button>
 				</span>
-				<span id="email-btn-wrapper">
+				<span id="email-btn-wrapper" class="w-full">
 					<button onclick="showEmail()" id="email-btn"
-						class="px-8 py-3 border border-gray-300 text-gray-800 font-semibold rounded hover:bg-gray-100 transition">
+						class="w-full sm:w-auto px-8 py-3 border border-gray-300 text-gray-800 font-semibold rounded hover:bg-gray-100 transition">
 						Wyślij wiadomość
 					</button>
 				</span>
