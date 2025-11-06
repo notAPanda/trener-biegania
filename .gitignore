@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Env files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Local config
+*.local.js
+
+# Mac system files
+Icon?
+
+# Package lock
+package-lock.json
+yarn.lock
+
+# Images in dist (built output only)
+dist/images/
